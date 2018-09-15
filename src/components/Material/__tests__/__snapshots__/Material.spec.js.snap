@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Material /> should render correctly when data type is audio 1`] = `
+<MaterialTypeWrapper>
+  <MaterialAudio
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title",
+        "type": "audio",
+        "url": "audio.mp3",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;
+
+exports[`<Material /> should render correctly when data type is text 1`] = `
+<MaterialTypeWrapper>
+  <MaterialText
+    material={
+      Object {
+        "id": 1,
+        "textContent": "Material text content.",
+        "title": "Material title",
+        "type": "text",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;
+
+exports[`<Material /> should render correctly when data type is video 1`] = `
+<MaterialTypeWrapper>
+  <MaterialVideo
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title",
+        "type": "video",
+        "url": "video.mp4",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;
+
+exports[`<Material /> should render correctly when error 1`] = `
+<Error
+  status="404"
+/>
+`;
+
+exports[`<Material /> should render correctly when loading 1`] = `<MaterialTypeWrapper />`;

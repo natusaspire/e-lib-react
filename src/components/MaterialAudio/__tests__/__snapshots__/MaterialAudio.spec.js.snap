@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialAudio /> should render correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__header"
+  >
+    Material title
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="card__player"
+    >
+      <audio
+        controls={true}
+        src="audio.mp3"
+      >
+        Sorry, your browser does not support embedded audio, you can 
+        <b>
+          <a
+            className="card__link"
+            href="audio.mp3"
+          >
+            download
+          </a>
+        </b>
+         it.
+      </audio>
+    </div>
+  </div>
+</div>
+`;

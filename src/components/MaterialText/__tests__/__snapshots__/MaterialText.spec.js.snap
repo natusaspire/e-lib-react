@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialText /> should render correctly 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__header"
+  >
+    Material title
+  </div>
+  <div
+    className="content"
+  >
+    <span>
+      Material text content.
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<LibraryContainer /> should render correctly 1`] = `
+<Library
+  endpoint="audio"
+  materials={
+    Array [
+      Object {
+        "id": 1,
+        "rating": 100,
+        "title": "Material title 1",
+        "type": "audio",
+        "url": "audio1.mp3",
+      },
+      Object {
+        "id": 2,
+        "rating": 50,
+        "title": "Material title 2",
+        "type": "audio",
+        "url": "audio2.mp3",
+      },
+    ]
+  }
+  onUpdate={[Function]}
+/>
+`;

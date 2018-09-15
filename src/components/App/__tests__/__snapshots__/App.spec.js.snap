@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render correctly 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="wrapper__header wrapper__header--fixed"
+  >
+    <Header />
+  </div>
+  <div
+    className="wrapper__main wrapper__main--grey"
+  >
+    <Main />
+  </div>
+  <div
+    className="wrapper__footer"
+  >
+    <Footer />
+  </div>
+</div>
+`;

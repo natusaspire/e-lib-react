@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Library /> should render correctly 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="main__container main__toolbar--fixed"
+  >
+    <Toolbar
+      title="Toolbar"
+    >
+      <Tabs
+        items={
+          Array [
+            Object {
+              "id": 1,
+              "name": "Text",
+              "value": "text",
+            },
+            Object {
+              "id": 2,
+              "name": "Audio",
+              "value": "audio",
+            },
+            Object {
+              "id": 3,
+              "name": "Video",
+              "value": "video",
+            },
+          ]
+        }
+        onItemSelect={[Function]}
+      />
+    </Toolbar>
+  </div>
+  <div
+    className="main__container main__content"
+  >
+    <MaterialPreviewList
+      endpoint="text"
+      materials={
+        Array [
+          Object {
+            "id": 1,
+            "textContent": "Material text content 1.",
+            "title": "Material title 1",
+            "type": "text",
+          },
+          Object {
+            "id": 2,
+            "textContent": "Material text content 2.",
+            "title": "Material title 2",
+            "type": "text",
+          },
+          Object {
+            "id": 3,
+            "textContent": "Material text content 3.",
+            "title": "Material title 3",
+            "type": "text",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

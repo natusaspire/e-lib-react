@@ -1,0 +1,46 @@
+$body-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3)
+$body-background-color: #f9f9f9
+
+$title-height: 50px
+$title-padding: 15px
+
+$dropdown-width: 100%
+$dropdown-padding: 15px
+$dropdown-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3)
+$dropdown-background-color: #f9f9f9
+
+.toolbar
+
+  &__body
+    position: relative
+    box-shadow: $body-box-shadow
+    background: $body-background-color
+
+    & > input[type=checkbox]
+      display: none
+
+    & > input[type=checkbox]:checked ~ div
+      display: block
+
+  &__title
+    height: $title-height
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    box-sizing: border-box
+    overflow: hidden
+    padding: $title-padding
+    cursor: pointer
+
+  &__dropdown
+    position: absolute
+    width: $dropdown-width
+    display: none
+    box-sizing: border-box
+    padding: $dropdown-padding
+    box-shadow: $dropdown-box-shadow
+    background: $dropdown-background-color
+
+    &--hidden
+      display: none

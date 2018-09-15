@@ -1,0 +1,40 @@
+$padding-top: 60px
+
+$container-max-width: 1100px
+
+$content-margin-top: 50px
+
+$detail-content-margin-top: 15px
+$detail-content-margin-bottom: 15px
+
+.main
+  padding-top: $padding-top
+
+  &__container
+    max-width: $container-max-width
+    margin: 0 auto
+    padding: 0
+
+  .main__toolbar
+
+    &--fixed
+      position: fixed
+      top: 60px
+      left: 0
+      right: 0
+      z-index: 1
+      width: 100%
+
+  &__content
+    margin-top: $content-margin-top
+
+  &__detail-content
+    margin-top: $detail-content-margin-top
+    margin-bottom: $detail-content-margin-bottom
+
+  &__hero
+    position: fixed
+    top: 60px
+    bottom: 60px
+    left: 0
+    right: 0

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Navbar /> should render correctly 1`] = `
+<div
+  className="navbar"
+>
+  <ul
+    className="navbar__body"
+  >
+    <li
+      className="navbar__item navbar__item--first"
+    >
+      <NavLink
+        activeClassName="navbar__link--active"
+        className="navbar__link"
+        exact={true}
+        to="/"
+      >
+        Home
+      </NavLink>
+    </li>
+    <li
+      className="navbar__item"
+    >
+      <NavLink
+        activeClassName="navbar__link--active"
+        className="navbar__link"
+        exact={true}
+        to="/library"
+      >
+        Library
+      </NavLink>
+    </li>
+  </ul>
+</div>
+`;
