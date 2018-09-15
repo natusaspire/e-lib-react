@@ -1,0 +1,26 @@
+$grey-main-background-color: #f3f3f3
+
+.wrapper
+  display: flex
+  flex-direction: column
+  height: 100%
+  padding: 0
+
+  &__header
+    flex: 0 0 auto
+
+    &--fixed
+      position: fixed
+      top: 0
+      left: 0
+      right: 0
+      z-index: 2
+
+  &__main
+    flex: 1 0 auto
+
+    &--grey
+      background: $grey-main-background-color
+
+  &__footer
+    flex: 0 0 auto

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialTypeWrapper /> should render material type wrapper 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="main__container main__detail-content"
+  >
+    <div>
+      MaterialType
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Material /> should render audio material when data exists and data type is audio 1`] = `
+<MaterialTypeWrapper>
+  <MaterialAudio
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title",
+        "type": "audio",
+        "url": "audio.mp3",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;
+
+exports[`<Material /> should render error content when error 1`] = `
+<Error
+  status="404"
+/>
+`;
+
+exports[`<Material /> should render material type wrapper when data does not exist 1`] = `<MaterialTypeWrapper />`;
+
+exports[`<Material /> should render material type wrapper when data exists and data type is unknown 1`] = `<MaterialTypeWrapper />`;
+
+exports[`<Material /> should render text material when data exists and data type is text 1`] = `
+<MaterialTypeWrapper>
+  <MaterialText
+    material={
+      Object {
+        "id": 1,
+        "textContent": "Material text content.",
+        "title": "Material title",
+        "type": "text",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;
+
+exports[`<Material /> should render video material when data exists and data type is video 1`] = `
+<MaterialTypeWrapper>
+  <MaterialVideo
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title",
+        "type": "video",
+        "url": "video.mp4",
+      }
+    }
+  />
+</MaterialTypeWrapper>
+`;

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> should render main content 1`] = `
+<Switch>
+  <Route
+    component="Home"
+    exact={true}
+    path="/"
+  />
+  <Route
+    component="LibraryContainer"
+    exact={true}
+    path="/library"
+  />
+  <Route
+    component="MaterialContainer"
+    exact={true}
+    path="/materials/:endpoint/:id"
+  />
+  <Route
+    path="**"
+    render={[Function]}
+  />
+</Switch>
+`;
+
+exports[`<Main /> should render not found error when path is unknown 1`] = `
+<Error
+  status={404}
+/>
+`;

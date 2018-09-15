@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Library /> should render library content 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="main__container main__toolbar--fixed"
+  >
+    <Toolbar
+      title="Toolbar"
+    >
+      <Tabs
+        items={
+          Array [
+            Object {
+              "id": 1,
+              "name": "Text",
+              "value": "text",
+            },
+            Object {
+              "id": 2,
+              "name": "Audio",
+              "value": "audio",
+            },
+            Object {
+              "id": 3,
+              "name": "Video",
+              "value": "video",
+            },
+          ]
+        }
+        onItemSelect={[Function]}
+      />
+    </Toolbar>
+  </div>
+  <div
+    className="main__container main__content"
+  >
+    <MaterialPreviewList
+      endpoint="audio"
+      materials={
+        Array [
+          Object {
+            "id": 1,
+            "rating": 100,
+            "title": "Material title 1",
+            "type": "audio",
+            "url": "audio1.mp3",
+          },
+          Object {
+            "id": 2,
+            "rating": 50,
+            "title": "Material title 2",
+            "type": "audio",
+            "url": "audio2.mp3",
+          },
+        ]
+      }
+    />
+  </div>
+</div>
+`;

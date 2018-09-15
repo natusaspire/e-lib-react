@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Hero /> should render hero content with image url 1`] = `
+<div
+  className="hero"
+>
+  <div
+    className="hero__image"
+    style={
+      Object {
+        "backgroundImage": "url(image.jpeg)",
+      }
+    }
+  >
+    <h1>
+      Hero
+    </h1>
+  </div>
+</div>
+`;
+
+exports[`<Hero /> should render hero content without image url 1`] = `
+<div
+  className="hero"
+>
+  <div
+    className="hero__image"
+    style={
+      Object {
+        "backgroundImage": "url()",
+      }
+    }
+  >
+    <h1>
+      Hero
+    </h1>
+  </div>
+</div>
+`;

@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Tabs /> renderItem should render tab 1`] = `
+<div
+  className="tabs__item tabs__item--active"
+  onClick={[Function]}
+>
+  Text
+</div>
+`;
+
+exports[`<Tabs /> should render selected tab after item selection 1`] = `
+<div
+  className="tabs"
+>
+  <div
+    className="tabs__item"
+    key="1"
+    onClick={[Function]}
+  >
+    Text
+  </div>
+  <div
+    className="tabs__item tabs__item--active"
+    key="2"
+    onClick={[Function]}
+  >
+    Audio
+  </div>
+  <div
+    className="tabs__item"
+    key="3"
+    onClick={[Function]}
+  >
+    Video
+  </div>
+</div>
+`;
+
+exports[`<Tabs /> should render tabs 1`] = `
+<div
+  className="tabs"
+>
+  <div
+    className="tabs__item tabs__item--active"
+    key="1"
+    onClick={[Function]}
+  >
+    Text
+  </div>
+  <div
+    className="tabs__item"
+    key="2"
+    onClick={[Function]}
+  >
+    Audio
+  </div>
+  <div
+    className="tabs__item"
+    key="3"
+    onClick={[Function]}
+  >
+    Video
+  </div>
+</div>
+`;
