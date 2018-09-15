@@ -1,0 +1,80 @@
+$background-color: #fff
+$box-shadow: 0 0 2px rgba(0, 0, 0, 0.2)
+
+$hover-box-shadow: 0 0 6px rgba(0, 0, 0, 0.2)
+
+$header-padding: 10px 15px
+$header-box-shadow: 0 0 4px rgba(0, 0, 0, 0.3)
+$header-background-color: #f9f9f9
+
+$body-width: 100%
+$body-height: 215px
+$body-background-color: #eee
+
+$link-text-color: #000
+
+$image-max-width: 100%
+$image-height: 100%
+
+$player-width: 100%
+$player-background-color: #eee
+$player-box-shadow: 0 0 1px rgba(0, 0, 0, 0.3)
+
+$footer-padding: 10px 15px
+
+.card
+  overflow: hidden
+  background: $background-color
+  box-shadow: $box-shadow
+
+  &:hover
+    box-shadow: $hover-box-shadow
+
+  &__header
+    padding: $header-padding
+    overflow: hidden
+    box-shadow: $header-box-shadow
+    background: $header-background-color
+
+  &__body
+    width: $body-width
+    height: $body-height
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    overflow: hidden
+    background: $body-background-color
+
+  &__title
+
+    &--short
+      white-space: nowrap
+      text-overflow: ellipsis
+
+  &__link
+    text-decoration: none
+    color: $link-text-color
+
+  &__image
+    max-width: $image-max-width
+    height: $image-height
+
+  &__player
+    width: $player-width
+    background: $player-background-color
+    box-shadow: $player-box-shadow
+
+    & video
+      display: block
+      width: 100%
+
+    & audio
+      display: block
+      width: 100%
+
+  &__footer
+    padding: $footer-padding
+    white-space: nowrap
+    text-overflow: ellipsis
+    overflow: hidden

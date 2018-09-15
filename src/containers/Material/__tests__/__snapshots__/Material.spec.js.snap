@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialContainer /> should render materials view 1`] = `
+<Material
+  material={
+    Object {
+      "data": Object {
+        "id": 1,
+        "title": "Material title",
+        "type": "audio",
+        "url": "audio.mp3",
+      },
+      "error": null,
+      "loading": false,
+    }
+  }
+/>
+`;

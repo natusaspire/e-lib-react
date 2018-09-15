@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialPreviewList /> should render audio materials when endpoint is "audio" 1`] = `
+<div
+  className="grid content"
+>
+  <MaterialPreview
+    endpoint="audio"
+    image="audio.png"
+    key="1"
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title 1",
+        "type": "audio",
+        "url": "audio1.mp3",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="audio"
+    image="audio.png"
+    key="2"
+    material={
+      Object {
+        "id": 2,
+        "title": "Material title 2",
+        "type": "audio",
+        "url": "audio2.mp3",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="audio"
+    image="audio.png"
+    key="3"
+    material={
+      Object {
+        "id": 3,
+        "title": "Material title 3",
+        "type": "audio",
+        "url": "audio3.mp3",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<MaterialPreviewList /> should render text materials when endpoint is "text" 1`] = `
+<div
+  className="grid content"
+>
+  <MaterialPreview
+    endpoint="text"
+    image="text.png"
+    key="1"
+    material={
+      Object {
+        "id": 1,
+        "textContent": "Material text content 1.",
+        "title": "Material title 1",
+        "type": "text",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="text"
+    image="text.png"
+    key="2"
+    material={
+      Object {
+        "id": 2,
+        "textContent": "Material text content 2.",
+        "title": "Material title 2",
+        "type": "text",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="text"
+    image="text.png"
+    key="3"
+    material={
+      Object {
+        "id": 3,
+        "textContent": "Material text content 3.",
+        "title": "Material title 3",
+        "type": "text",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`<MaterialPreviewList /> should render video materials when endpoint is "video" 1`] = `
+<div
+  className="grid content"
+>
+  <MaterialPreview
+    endpoint="video"
+    image="video.png"
+    key="1"
+    material={
+      Object {
+        "id": 1,
+        "title": "Material title 1",
+        "type": "video",
+        "url": "video1.mp3",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="video"
+    image="video.png"
+    key="2"
+    material={
+      Object {
+        "id": 2,
+        "title": "Material title 2",
+        "type": "video",
+        "url": "video2.mp3",
+      }
+    }
+  />
+  <MaterialPreview
+    endpoint="video"
+    image="video.png"
+    key="3"
+    material={
+      Object {
+        "id": 3,
+        "title": "Material title 3",
+        "type": "video",
+        "url": "video3.mp3",
+      }
+    }
+  />
+</div>
+`;

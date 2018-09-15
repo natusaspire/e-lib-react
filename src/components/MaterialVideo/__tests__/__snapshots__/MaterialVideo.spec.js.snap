@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialVideo /> should render video material 1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card__header"
+  >
+    Material title
+  </div>
+  <div
+    className="content"
+  >
+    <div
+      className="card__player"
+    >
+      <video
+        controls={true}
+        src="video.mp4"
+      >
+        Sorry, your browser does not support embedded video, you can 
+        <b>
+          <a
+            className="card__link"
+            href="video.mp4"
+          >
+            download
+          </a>
+        </b>
+         it.
+      </video>
+    </div>
+  </div>
+</div>
+`;

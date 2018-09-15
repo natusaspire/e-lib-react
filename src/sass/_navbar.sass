@@ -1,0 +1,43 @@
+$item-line-height: 60px
+$item-border: 1px solid #000
+
+$link-padding-left: 20px
+$link-padding-right: 20px
+$link-text-color: #dadada
+
+$link-active-background-color: #272727
+
+$link-hover-text-color: #ececec
+
+.navbar
+
+  &__body
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    margin: 0
+    padding: 0
+    list-style: none
+
+  &__item
+    line-height: $item-line-height
+    border-right: $item-border
+    text-align: center
+
+    &--first
+      border-left: $item-border
+
+  &__link
+    display: block
+    padding-left: $link-padding-left
+    padding-right: $link-padding-right
+    cursor: pointer
+    text-decoration: none
+    color: $link-text-color
+
+    &--active
+      background: $link-active-background-color
+
+  &__link:hover
+    color: $link-hover-text-color

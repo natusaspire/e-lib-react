@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MaterialPreview /> should render material preview 1`] = `
+<div
+  className="grid__item card"
+>
+  <div
+    className="card__body"
+  >
+    <img
+      alt=""
+      className="card__image"
+      src="text.png"
+    />
+  </div>
+  <div
+    className="card__footer"
+  >
+    <Link
+      className="card__link"
+      to="/materials/text/1"
+    >
+      Material title
+    </Link>
+  </div>
+</div>
+`;

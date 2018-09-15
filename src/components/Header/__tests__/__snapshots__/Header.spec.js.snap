@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render header content 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="header__container header__body"
+  >
+    <Logo />
+    <Navbar />
+  </div>
+</div>
+`;
